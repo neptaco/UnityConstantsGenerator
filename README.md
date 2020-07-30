@@ -20,6 +20,8 @@ Constants values utitlity
 
 Open `ProjectSettings -> Constants Generator` and set the generation target.
 
+![ProjectSettings](docs/ProjectSettings.png)
+
 |Target|Generated classes|
 |----|-------|
 |Scene|SceneId<br/>SceneName<br/>ScenePath|
