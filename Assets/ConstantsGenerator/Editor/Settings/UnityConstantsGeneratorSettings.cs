@@ -11,7 +11,7 @@ namespace UnityConstantsGenerator
     {
         public const string SavePath = "ProjectSettings/UnityConstantsGeneratorSettings.asset";
 
-        public GenerateSetting generateSetting;
+        public GenerateSetting generateSetting = new GenerateSetting();
 
         private static UnityConstantsGeneratorSettings _instance;
 

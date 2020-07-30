@@ -85,6 +85,9 @@ namespace UnityConstantsGenerator.SourceGenerator
         private static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, string[] movedAssets,
             string[] movedFromAssetPaths)
         {
+            if (Settings == null)
+                return;
+            
             if (Settings.generateLayerValues ||
                 Settings.generateSortingLayerValues ||
                 Settings.generateTagValues)
