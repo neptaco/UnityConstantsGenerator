@@ -1,6 +1,6 @@
 {
   "name": "com.xtaltools.unityconstantsgenerator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Unity Constants Generator",
   "description": "Generate constants as source code",
   "unity": "2019.4",
