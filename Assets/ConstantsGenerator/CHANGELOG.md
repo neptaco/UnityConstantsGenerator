@@ -15,6 +15,13 @@
 ### Security
 
 
+## [1.0.1] - 2020/07/31
+
+### Fixed
+
+- Fixed a setting loading bug on reopen unity editor
+
+
 ## [1.0.0] - 2020/07/31
 
 ### Added
