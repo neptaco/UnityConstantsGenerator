@@ -1,0 +1,12 @@
+{
+  "name": "com.xtaltools.unityconstantsgenerator",
+  "version": "0.0.1",
+  "displayName": "Unity Constants Generator",
+  "description": "Generate constants as source code",
+  "unity": "2018.4",
+  "keywords": ["unity", "scene", "layer", "tag", "utilities"],
+  "author": {
+    "name": "Atsuhito Machida (neptaco)",
+    "email": "neptacox@gmail.com"
+  }
+}
