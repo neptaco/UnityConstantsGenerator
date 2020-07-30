@@ -46,6 +46,11 @@ namespace UnityConstantsGenerator
         /// </summary>
         public static readonly string _12hogeA = "12@hoge -##A";
 
+        /// <summary>
+        /// New TAG 1
+        /// </summary>
+        public static readonly string NewTAG1 = "New TAG 1";
+
     }
 
 }

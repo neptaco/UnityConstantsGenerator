@@ -13,6 +13,8 @@ namespace UnityConstantsGenerator.SourceGenerator
 {
     public class UnityConstantValuesGenerator : AssetPostprocessor
     {
+        private const string TagManagerPath = "ProjectSettings/TagManager.asset";
+        
         private static GenerateSetting _settings;
 
         private static GenerateSetting Settings
@@ -89,7 +91,7 @@ namespace UnityConstantsGenerator.SourceGenerator
             {
                 foreach (var asset in importedAssets)
                 {
-                    if (asset.EndsWith("TagManager.asset", StringComparison.Ordinal))
+                    if (asset == TagManagerPath)
                     {
                         UpdateUnityConstants();
                     }
