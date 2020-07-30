@@ -1,5 +1,7 @@
 # Unity Constants Generator
 
+[![openupm](https://img.shields.io/npm/v/com.xtaltools.unityconstantsgenerator?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.xtaltools.unityconstantsgenerator/)
+
 Constants values utitlity
 
 ## Install
@@ -16,7 +18,7 @@ Constants values utitlity
 
 ## Generate Unity constant values
 
-Open `ProjectSettings -> UniEnum` and set the generation target.
+Open `ProjectSettings -> Constants Generator` and set the generation target.
 
 |Target|Generated classes|
 |----|-------|
